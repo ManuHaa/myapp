@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/styles.css') }}>
+      <script src="myscript.js"></script>
+      <title>Simple Flask Website</title>
+   </head>
+   <body>
+      <h1>
+         hallo {{ name }} 
+      </h1>
+       <header>
+          <h1 id="mainheader"> a Simple Flask Website </h1>
+         <style>
+            
+         </style>
+      </header>
+    <main>
+       <nav id="topnavigation">
+          <a href="http://127.0.0.1:5000/test">Home</a>
+          <a href="http://127.0.0.1:5000/news">News</a>
+          <a href="http://127.0.0.1:5000/contact">Contact</a>
+          <a href="http://127.0.0.1:5000/about">About</a>
+       </nav>
+
+       <article id="txt">
+          <h2>Platzhalter</h2>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+       </article>
+
+       <aside id="randbemerkung">
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam </p>
+       </aside>
+
+       <footer> 
+         <p> Flask is a Fun and easy framework</p>
+         <p> Flask and HTML in python looks cool</p></footer>
+    </main>   
+     
+   </body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/styles.css') }}>
+      <script src="myscript.js"></script>
+      <title>Simple Flask Website</title>
+   </head>
+   <body>
+        <h1>Contact</h1>
+        <form method="POST" action="/api/contactform" target="_blank">
+            <input type="text" name="name" placeholder="please enter name" required="required" />
+            <input type="text" name="company" placeholder="please enter company"  />
+            <button type="submit">sent</button>
+        </form>
+   </body>
+
+</html>
